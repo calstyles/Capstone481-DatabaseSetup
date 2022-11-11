@@ -1,8 +1,8 @@
-DROP TABLE IF EXISTS battery_information;
+DROP TABLE IF EXISTS battery_measurements;
 DROP TABLE IF EXISTS battery_percentages;
 DROP TABLE IF EXISTS cart_location;
 
-CREATE TABLE battery_information(
+CREATE TABLE battery_measurements(
 	cart VARCHAR(30),
 	battery_voltage DECIMAL(6,3),
 	battery_current DECIMAL(6,3),
