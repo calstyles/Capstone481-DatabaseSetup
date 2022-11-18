@@ -1,4 +1,4 @@
-# Capstone-Project-Files
+# MVP-Capstone
 For this project, I am focusing on building the database structure that we will be using for a set of electric vehicles for Critical Microgrid Services. 
 This project will be dealing with data analysis and managing how things are getting stored inside of the database. The database has the following battery information inside of it:
   
