@@ -28,7 +28,3 @@ CREATE TABLE cart_location(
 SELECT * FROM battery_information;
 SELECT * FROM battery_percentages;
 SELECT * FROM cart_location;
-
-INSERT VALUES INTO battery_information(
-
-);
