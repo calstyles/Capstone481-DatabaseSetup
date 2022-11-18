@@ -18,6 +18,9 @@ I expect that by the end of this project the database will have the following ba
   
 I will also be focused on gathering the GPS data that will be keeping track of where the cart is at all times. 
 The following information will be provided in the database:
+  
   -geo-location
+  
   -longitude
+  
   -latitude
