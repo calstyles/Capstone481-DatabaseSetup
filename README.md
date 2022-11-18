@@ -25,4 +25,4 @@ The following information from the GPS will be provided in the database:
   
   -latitude
 
-I will be utilizing a node-red structure to insert and update the values within the database table. Once we have these values, I'll be analyzing the data and checking how it is changing over time through graphs.
+I will be utilizing a node-red structure along with the SQL code that I have developed to insert and update the values within the database table. Once we have these values, I'll be analyzing the data and checking how it is changing over time through graphs.
