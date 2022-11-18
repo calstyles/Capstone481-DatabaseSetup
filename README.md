@@ -19,8 +19,6 @@ This project will be dealing with data analysis and managing how things are gett
 I will also be focused on gathering the GPS data that will be keeping track of where the cart is at all times. 
 The following information from the GPS will be provided in the database:
   
-  -geo-location
-  
   -longitude
   
   -latitude
