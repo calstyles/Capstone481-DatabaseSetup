@@ -1,4 +1,4 @@
---Table Creation and Updates
+--Drops all tables if they exist, otherwise these lines of code are ignored
 DROP TABLE IF EXISTS battery_measurements;
 DROP TABLE IF EXISTS cart_location;
 
