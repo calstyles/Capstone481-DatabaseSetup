@@ -8,8 +8,6 @@ This project will be dealing with data analysis and managing how data is getting
   
   -resistance
   
-  -watt hours
-  
   -state of charge
   
   -depth of discharge
