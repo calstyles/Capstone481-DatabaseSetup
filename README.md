@@ -1,6 +1,6 @@
 # MVP-Capstone480
 For this project, I am running a pgAdmin database and I will be building the database structure that we will be using for a set of electric vehicles for Critical Microgrid Services. 
-This project will be dealing with data analysis and managing how things are getting stored inside of the database. The database currently has the following battery information inside of it:
+This project will be dealing with data analysis and managing how data is getting stored inside of the database. The database currently has the following battery information inside of it:
   
   -voltage
   
