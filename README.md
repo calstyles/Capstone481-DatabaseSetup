@@ -24,3 +24,8 @@ The following information from the GPS will be provided in the database:
 I will be utilizing a node-red structure that will put out the data along with the SQL code that I have developed to insert and update the values within the database table. What we currently have in the database is values of the battery that we have been testing over the past few months. We will be making this project scalable for all of the electric vehicles that are a part of the system and modifying the database to accompany these values. Once we have the values of all the carts, I'll be analyzing the data and checking how it is changing over time through graphs.
 
 Note: The measurements listed may expand to encompass more as we continue with the project.
+
+Voltage Equation (Voltage): V = I * R
+Power Equation (Watts): W = V * I
+State of Charge and Depth of Discharge Calculation Source:
+https://federalbatteries.com.au/news/what-depth-discharge-and-why-it-so-important#:~:text=Depth%20of%20discharge%20is%20normally,one%20increases%2C%20the%20other%20decreases.
