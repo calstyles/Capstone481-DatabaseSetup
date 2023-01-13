@@ -26,6 +26,8 @@ I will be utilizing a node-red structure that will put out the data along with t
 Note: The measurements listed may expand to encompass more as we continue with the project.
 
 Voltage Equation (Voltage): V = I * R
+
 Power Equation (Watts): W = V * I
+
 State of Charge and Depth of Discharge Calculation Source:
 https://federalbatteries.com.au/news/what-depth-discharge-and-why-it-so-important#:~:text=Depth%20of%20discharge%20is%20normally,one%20increases%2C%20the%20other%20decreases.
