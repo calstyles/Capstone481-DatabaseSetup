@@ -11,19 +11,19 @@ CREATE TABLE carts(
 
 --This is the table that will gather the battery measurements
 CREATE TABLE battery_measurements(
-	id INT,
+	cartID INT,
+	timestamp BIGINT,
 	battery_voltage DECIMAL(6,3),
 	battery_current DECIMAL(6,3),
 	battery_state_of_charge DECIMAL(6,3),
-	PRIMARY KEY (id),
-	FOREIGN KEY (id) REFERENCES carts(id)
+	FOREIGN KEY (cartID) REFERENCES carts(id)
 );
 
 --This is the table that will gather the geo-location of the cart
 CREATE TABLE cart_location(
-	id INT,
+	cartID INT,
+	timestamp BIGINT,
 	cart_longitude decimal(21,14),
 	cart_latitude decimal(21,14),
-	PRIMARY KEY (id),
-	FOREIGN KEY (id) REFERENCES carts(id)
+	FOREIGN KEY (cartID) REFERENCES carts(id)
 );
