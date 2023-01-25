@@ -5,8 +5,8 @@ DROP TABLE IF EXISTS cart_location CASCADE;
 
 --This is the table that has all of our cart information
 CREATE TABLE carts(
-	id INT PRIMARY KEY,
-	groupID INT
+	id bigserial PRIMARY KEY,
+	cartID INT
 );
 
 --This is the table that will gather the battery measurements
