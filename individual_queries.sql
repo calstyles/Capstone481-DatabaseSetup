@@ -41,7 +41,7 @@ SELECT cart_longitude
 FROM cart_location
 WHERE cartid = 1;
 
---Geo-location latitude
+--Geo-location Latitude
 SELECT cart_latitude 
 FROM cart_location
 WHERE cartid = 1;
