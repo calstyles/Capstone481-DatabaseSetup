@@ -1,3 +1,6 @@
+-- cartid is set to 1 in these tests to specify the prototype that we are analyzing for this project
+-- To analyze more carts, we would need to set cartid to the value that it is assigned when it is added to the database 
+
 --Table Queries For All Carts
 SELECT * FROM carts;
 SELECT * FROM battery_measurements;
@@ -42,6 +45,3 @@ WHERE cartid = 1;
 SELECT cart_latitude 
 FROM cart_location
 WHERE cartid = 1;
-
--- cartid is set to 1 in these tests to specify the prototype that we are analyzing for this project
--- To analyze more carts, we would need to set cartid to the value that it is assigned when it is added to the database 
