@@ -36,12 +36,12 @@ SELECT 100 - battery_state_of_charge AS "battery_depth_of_discharge"
 FROM battery_measurements
 WHERE cartid = 1;
 
---Geo-location Longitude
+--Geo-location, Longitude
 SELECT cart_longitude 
 FROM cart_location
 WHERE cartid = 1;
 
---Geo-location Latitude
+--Geo-location, Latitude
 SELECT cart_latitude 
 FROM cart_location
 WHERE cartid = 1;
