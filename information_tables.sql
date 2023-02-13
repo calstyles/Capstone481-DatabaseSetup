@@ -1,4 +1,4 @@
---Drops all tables if they exist, otherwise these lines of code are ignored; USE IF YOU ARE RESETTING THE battery_measurements AND geo-location TABLES!
+--Drops all tables if they exist, otherwise these lines of code are ignored; USE IF YOU ARE RESETTING THE battery_measurements AND cart-location TABLES!
 DROP TABLE IF EXISTS battery_measurements CASCADE;
 DROP TABLE IF EXISTS cart_location CASCADE;
 
