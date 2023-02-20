@@ -45,3 +45,9 @@ WHERE cartid = 1;
 SELECT cart_latitude 
 FROM cart_location
 WHERE cartid = 1;
+
+--Date Inserted
+SELECT DATE('1970-01-01') + (timestamp * INTERVAL '1 millisecond') 
+AS time_inserted
+FROM battery_measurements
+WHERE cartid = 1;
