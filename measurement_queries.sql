@@ -38,12 +38,22 @@ WHERE cartid = 1;
 
 --Geo-location, Longitude
 SELECT cart_longitude 
-FROM cart_location
+FROM battery_measurements
 WHERE cartid = 1;
 
 --Geo-location, Latitude
 SELECT cart_latitude 
-FROM cart_location
+FROM battery_measurements
+WHERE cartid = 1;
+
+--Altitude
+SELECT altitude
+FROM battery_measurements
+WHERE cartid = 1;
+
+--Speed
+SELECT speed
+FROM battery_measurements
 WHERE cartid = 1;
 
 --Date Inserted
