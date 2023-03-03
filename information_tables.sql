@@ -8,7 +8,9 @@ CREATE TABLE battery_measurements(
 	battery_voltage DECIMAL(6,3),
 	battery_current DECIMAL(6,3),
 	battery_state_of_charge DECIMAL(6,3),
-	cart_longitude decimal(21,14),
-	cart_latitude decimal(21,14),
+	cart_longitude DECIMAL(21,14),
+	cart_latitude DECIMAL(21,14),
+	altitude DECIMAL(6, 3), 
+	speed DECIMAL(6, 3),
 	FOREIGN KEY (cartID) REFERENCES carts(id)
 );
