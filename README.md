@@ -21,7 +21,7 @@ The following information from the GPS will be provided in the database:
   
   -latitude
 
-I will be utilizing a node-red structure that will put out the data along with the SQL code that I have developed to insert and update the values within the database table. What we currently have in the database is values of the battery that we have been testing over the past few months. We will be making this project scalable for all of the electric vehicles that are a part of the system and modifying the database to accompany these values. Once we have the values of all the carts, I'll be analyzing the data and checking how it is changing over time through graphs.
+I will be utilizing a node-red structure that will put out the data along with the SQL code that I have developed to insert and update the values within the database table. What we currently have in the database is values of the battery that we have been testing over the past few months. We will be making this project scalable for all of the electric vehicles that are a part of the system and modifying the database to accompany these values. Once we have the values of the cart, I'll be analyzing the data and checking how it is changing over time through graphs.
 
 Voltage Equation (Voltage): V = I * R
 
