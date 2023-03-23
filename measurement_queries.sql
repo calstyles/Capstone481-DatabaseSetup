@@ -4,7 +4,6 @@
 --Table Queries For All Carts
 SELECT * FROM carts;
 SELECT * FROM battery_measurements;
-SELECT * FROM cart_location;
 
 --Voltage, Volts
 SELECT battery_voltage
